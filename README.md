@@ -1,7 +1,7 @@
 # Replete's life ops starter vault
 
 This is your new *life ops starter vault*.
-https://github.com/replete/life-ops-starter-obsidian-vault
+phil@replete.nu
 
 ## Installation
 
@@ -24,7 +24,7 @@ https://github.com/replete/life-ops-starter-obsidian-vault
 	- Each journal entry has a filename of the format YYYY-MM-DD
 	- To make a new journal entry either; tap ALT+J, or tap ALT+Q and select Journal
 - Meditations
-	- This folder could contain daily devotionals broken up by day in format of MMDD.md, or collections that could be included randomly in your daily note, included via templater syntax within the relevant template
+	- This folder contains the Daily Stoic broken up by day, which is transcluded in the daily note. It could also contain other devotionals, or collections that could be included randomly in your daily note, included via templater syntax within the relevant template
 - Notes
 	- The idea here is atomic notes. Think of them as Fleeting Notes ('Zettelkasten' terminology). Whenever I want to note anything, I make a fleeting note using QuickAdd (ALT+Q) or set up a direct hotkey (settings > hotkeys)
 - Reference

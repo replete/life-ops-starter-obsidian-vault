@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assets/Templater/Daily Note.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -85,11 +85,23 @@
         "dimension": 64.91228070175438,
         "children": [
           {
-            "id": "2c66aa00bf565c3b",
+            "id": "5a62cba95f3f2a36",
             "type": "leaf",
             "state": {
               "type": "timeline",
               "state": {}
+            }
+          },
+          {
+            "id": "5746c40b4ee8903f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
         ]
@@ -118,51 +130,51 @@
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "dd193179e0021097",
+  "active": "5a62cba95f3f2a36",
   "lastOpenFiles": [
+    "replete life ops starter obsidian vault.zip",
+    "Archive.zip",
+    "replete life ops starter vault.zip",
+    "Meditations/Icon\r",
+    "Notes/Icon\r",
+    "Reference/Icon\r",
+    "Journal/Icon\r",
+    "Daily/Icon\r",
+    "Reference/Excalidraw is cool.md",
+    "Daily/2024-04-12.md",
+    "Daily/2024-04-01.md",
+    "Reference/Some other note.md",
+    "Notes/British slang.md",
     "README.md",
+    "Celticos Library/North Wales.md",
+    "Celticos Library/Bangor.md",
+    "Celticos Library",
+    "Journal/2024-04-12.md",
+    "Daily/2024-04-13.md",
+    "Assets/Templater/Reference Note.md",
+    "Assets/Templater/Fleeting Note.md",
+    "Notes/This is my note.md",
+    "This is my note title.md",
+    "Filename.md",
+    "Assets/Templater/Daily Note.md",
+    "Assets/Templater/Journal Entry.md",
+    "Journal/YYYY-MM-DD.md",
+    "Daily/2024-04-02.md",
+    "Journal",
+    "gitignore.md",
+    "untitled folder",
     "Meditations/The Daily Stoic/0723.md",
     "Meditations/The Daily Stoic/0820.md",
     "Meditations/The Daily Stoic/0501.md",
     "Meditations/The Daily Stoic/0410.md",
     "Meditations/The Daily Stoic/0717.md",
-    "Meditations/The Daily Stoic/0814.md",
-    "Meditations/The Daily Stoic/0905.md",
-    "Meditations/The Daily Stoic/0606.md",
-    "Meditations/The Daily Stoic/0424.md",
-    "Meditations/The Daily Stoic/1117.md",
-    "Meditations/The Daily Stoic/1006.md",
-    "Meditations/The Daily Stoic/1224.md",
-    "Meditations/The Daily Stoic/0119.md",
-    "Meditations/The Daily Stoic/1123.md",
-    "Meditations/The Daily Stoic/1210.md",
-    "Meditations/The Daily Stoic/1022.md",
-    "Meditations/The Daily Stoic/0109.md",
-    "Meditations/The Daily Stoic/1016.md",
-    "Meditations/The Daily Stoic/1107.md",
-    "Meditations/The Daily Stoic/0525.md",
-    "Meditations/The Daily Stoic/0915.md",
-    "Meditations/The Daily Stoic/0616.md",
-    "Meditations/The Daily Stoic/0707.md",
-    "Meditations/The Daily Stoic/0804.md",
-    "Meditations/The Daily Stoic/0511.md",
-    "Meditations/The Daily Stoic/attachments-for-1231/1231_image_1.png",
-    "Meditations/The Daily Stoic/attachments-for-1231",
-    "Meditations/The Daily Stoic/Icon\r",
-    "Meditations/The Daily Stoic",
-    "Archive.zip",
-    "replete life ops starter obsidian vault.zip",
-    "replete life ops starter vault.zip",
-    "Meditations/Icon\r",
-    "Notes/Icon\r",
-    "Reference/Icon\r",
-    "Journal/Icon\r"
+    "Meditations/The Daily Stoic/attachments-for-1231/1231_image_1.png"
   ]
 }
