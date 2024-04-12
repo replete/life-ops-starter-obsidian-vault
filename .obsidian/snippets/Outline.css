@@ -1,0 +1,41 @@
+/*
+    Compact outline panel
+    This makes the outline view far more condensed and shifts the chevrons to where I prefer them on the right
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+
+.outline .tree-item-children {
+    --nav-item-children-padding-left:4px;
+    --nav-item-children-margin-left:5px;
+    border-left-color:transparent
+}
+
+.outline .tree-item-icon.collapse-icon {
+    order:2;
+    padding-left:2px;
+    transform:scale(0.8) translate(0, -1px)
+}
+
+.outline .tree-item-inner {
+ flex:0 1 auto 
+}
+
+/* First item (page h1) */
+.outline > .tree-item > .tree-item-self {
+    font-weight:500;
+}
+
+.outline > .tree-item > .tree-item-children {
+    padding-left:4px;
+    margin-left:5px;
+    --nav-item-children-padding-left:0px;
+    --nav-item-children-margin-left:0px;
+}
+
+/* .mod-right-split .outline > .tree-item > .tree-item-children .mod-collapsible{
+    text-transform:uppercase;
+    font-size:75%;
+    font-weight:500;
+    margin-top:5px
+} */

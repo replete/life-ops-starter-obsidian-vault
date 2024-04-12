@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "24bf3748940e99b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f3898877e1b051a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd193179e0021097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assets/Templater/Daily Note.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "244af2fe2f6b85d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e00f2cce9a5e019d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fceb6d722c56ab1b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46523c67f8d5c3cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac90ee3666b0a52d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 217.5
+  },
+  "right": {
+    "id": "0ce663ed371066a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "71505fd11241c47e",
+        "type": "tabs",
+        "dimension": 64.91228070175438,
+        "children": [
+          {
+            "id": "2c66aa00bf565c3b",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "72944254876a5e9b",
+        "type": "tabs",
+        "dimension": 35.08771929824561,
+        "children": [
+          {
+            "id": "f8a5b8736a704247",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 359.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Timeline": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "dd193179e0021097",
+  "lastOpenFiles": [
+    "README.md",
+    "Meditations/The Daily Stoic/0723.md",
+    "Meditations/The Daily Stoic/0820.md",
+    "Meditations/The Daily Stoic/0501.md",
+    "Meditations/The Daily Stoic/0410.md",
+    "Meditations/The Daily Stoic/0717.md",
+    "Meditations/The Daily Stoic/0814.md",
+    "Meditations/The Daily Stoic/0905.md",
+    "Meditations/The Daily Stoic/0606.md",
+    "Meditations/The Daily Stoic/0424.md",
+    "Meditations/The Daily Stoic/1117.md",
+    "Meditations/The Daily Stoic/1006.md",
+    "Meditations/The Daily Stoic/1224.md",
+    "Meditations/The Daily Stoic/0119.md",
+    "Meditations/The Daily Stoic/1123.md",
+    "Meditations/The Daily Stoic/1210.md",
+    "Meditations/The Daily Stoic/1022.md",
+    "Meditations/The Daily Stoic/0109.md",
+    "Meditations/The Daily Stoic/1016.md",
+    "Meditations/The Daily Stoic/1107.md",
+    "Meditations/The Daily Stoic/0525.md",
+    "Meditations/The Daily Stoic/0915.md",
+    "Meditations/The Daily Stoic/0616.md",
+    "Meditations/The Daily Stoic/0707.md",
+    "Meditations/The Daily Stoic/0804.md",
+    "Meditations/The Daily Stoic/0511.md",
+    "Meditations/The Daily Stoic/attachments-for-1231/1231_image_1.png",
+    "Meditations/The Daily Stoic/attachments-for-1231",
+    "Meditations/The Daily Stoic/Icon\r",
+    "Meditations/The Daily Stoic",
+    "Archive.zip",
+    "replete life ops starter obsidian vault.zip",
+    "replete life ops starter vault.zip",
+    "Meditations/Icon\r",
+    "Notes/Icon\r",
+    "Reference/Icon\r",
+    "Journal/Icon\r"
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule ".obsidian/snippets"]
+	path = .obsidian/snippets
+	url = git@github.com:replete/obsidian-minimal-theme-css-snippets.git

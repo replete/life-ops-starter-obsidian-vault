@@ -1,0 +1,29 @@
+/*
+    Compact Tab Header
+    Make main tab header items more compact
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Make header title left justified */
+.view-header-title-container {
+    justify-content:start
+}
+.view-header-title-container .view-header-title {
+    color:var(--tx2) !important;
+}
+.view-header-title-container .view-header-title:hover,
+.view-header-title-container .view-header-title:focus {
+    color:var(--tx1) !important
+}
+
+/* Condensed Icon spacing */
+.view-header .view-actions .clickable-icon{
+    color:var(--tx2) !important;
+    transition: .2s color ease-in;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+.view-header .view-actions:hover .clickable-icon {
+    color: var(--tx1) !important;
+}

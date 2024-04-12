@@ -1,0 +1,15 @@
+/*
+    Obsidian Buttons tweaks
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+
+    (I abandoned this plugin for time being, but whatever)
+*/
+
+.block-language-button {
+    padding-left:0
+}
+
+.block-language-button button[class*=button-] {
+    margin-left:0;
+    margin-right:0;
+}

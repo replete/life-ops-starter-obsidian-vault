@@ -1,0 +1,24 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "MySnippets",
+    "[ui] Hide Ribbon",
+    "[ui] Native Scrollbar styles",
+    "[ui] Statusbar tweaks",
+    "[ui] Compact Sidebar Header",
+    "[ui] Compact Tab Header",
+    "[ui] Hide Vault Title in Left Sidebar",
+    "Calendar",
+    "Omnisearch",
+    "[ui] Resize Handles tweaks",
+    "[ui] Collapsible Right Headers",
+    "[ui] Restrict last right sidebar panel",
+    "[user] Themed colours",
+    "[ui] Tab Header show path and title",
+    "[ui] Compact Properties",
+    "[user] Daily Note styles",
+    "[editor] Editor fixes",
+    "[editor] Typography fixes"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [
+    {
+      "id": "app:delete-file",
+      "icon": "lucide-trash-2",
+      "name": "Delete current file",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-wrench",
+      "name": "Open settings",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "app:delete-file",
+      "icon": "lucide-trash-2",
+      "name": "Delete current file",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "properties",
+      "word-count"
+    ],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

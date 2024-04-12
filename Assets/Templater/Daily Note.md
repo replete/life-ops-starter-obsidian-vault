@@ -1,0 +1,34 @@
+---
+creation date: <% tp.file.creation_date() %>
+cssclass: dailynote
+---
+# <% tp.date.now("dddd, MMMM Do YYYY", 0, tp.file.title, "YYYY-MM-DD") %>
+
+## Morning Ritual
+
+- [ ] Wake up
+- [ ] Stretch
+
+> "_Search inside yourself with your intellect so as to find the place of the heart, where all the powers of the soul reside_." <cite>—St. Symeon the New Theologian</cite>
+
+![[Meditations/Daily Devotional/<% tp.date.now("MMDD", 0, tp.file.title, "YYYY-MM-DD") %>]]
+
+> "God, grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference"
+
+![[Journal/<% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>]]
+
+
+> “Begin each day by telling yourself: Today I shall be meeting with interference, ingratitude, insolence, disloyalty, ill-will, and selfishness – all of them due to the offenders’ ignorance of what is good or evil. But for my part I have long perceived the nature of good and its nobility, the nature of evil and its meanness, and also the nature of the culprit himself, who is my brother (not in the physical sense, but as a fellow creature similarly endowed with reason and a share of the divine); therefore none of those things can injure me, for nobody can implicate me in what is degrading. Neither can I be angry with my brother or fall foul of him; for he and I were born to work together, like a man’s two hands, feet or eyelids, or the upper and lower rows of his teeth. To obstruct each other is against Nature’s law – and what is irritation or aversion but a form of obstruction.”
+> 
+> — Marcus Aurelius
+
+## Day planner
+- 
+
+
+## Evening Ritual
+
+- [ ] Check calendar
+- [ ] Process inboxes
+- [ ] Create tomorrow’s note
+

@@ -1,0 +1,64 @@
+/*
+    Calendar plugin tweaks
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.view-content:has(#calendar-container) {
+    padding:0;
+}
+
+#calendar-container {
+    padding:0 8px 8px 8px;
+}
+
+#calendar-container .year {
+    color:var(--text-muted);
+}
+#calendar-container td,
+#calendar-container .day {
+    border-radius:0 !important;
+}
+#calendar-container .day {
+    padding-top:0;
+    padding-bottom:0;
+}
+#calendar-container .day.active {
+    outline:1px solid var(--tx3);
+}
+#calendar-container .day.active .filled,
+#calendar-container .day.today.active .filled {
+    fill:var(--tx1, var(--text-normal)) !important;
+}
+#calendar-container .day.active .hollow,
+#calendar-container .day.today.active .hollow {
+    stroke:var(--tx1, var(--text-normal)) !important;
+}
+#calendar-container .day.today .filled {
+    fill:var(--text-muted) !important;
+}
+#calendar-container .day.today .hollow {
+    stroke:var(--text-muted) !important;
+}
+
+#calendar-container .day.today {
+    color:var(--text-bold);
+    font-weight:700;
+    outline:2px solid var(--color-background-day-active);
+}
+.theme-dark #calendar-container .day.today {
+    /* outline:2px solid var(--tx3); */
+}
+
+#calendar-container .day.today.active {
+    /* color:var(--text-bright); */
+}
+#calendar-container .day:active {
+    background:var(--tx2, var(--text-muted));
+}
+#calendar-container .day.adjacent-month {
+    /* color:var(--tx2) */
+}
+
+#calendar-container .weekend {
+    background: var(--bg2, var(--background-primary));
+}

@@ -1,0 +1,191 @@
+/*
+    Day Planner visual changes
+    This is for the abandoned plugin. 
+    These styles will be ported over to my forked plugin:
+    https://github.com/replete/obsidian-day-planner
+    
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Container max size */
+.mod-right-split [data-type=timeline] .view-content {
+    padding:0;
+}
+.mod-right-split [data-type=timeline] .events {
+    padding-bottom: 0 !important
+}
+
+/* Planner box styling - hide timeline bar, minimal styles */
+.mod-right-split [data-type=timeline] .aside {
+    width:30px !important;
+    opacity:0.75 !important;
+}
+.mod-right-split [data-type=timeline] .aside__line {
+    left:20px !important;
+    display:none;
+}
+.mod-right-split [data-type=timeline] .event_item_contents {
+    padding-left:30px !important;
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Dot {
+    display:none;
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Title {
+    margin-left:-5px;
+    font-size:11px;
+    line-height:1em;
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Copy {
+    margin-left:10px;
+}
+
+/* Fix 'hour quarters' bg in dark themes */
+.mod-right-split [data-type=timeline] .aside,
+.mod-right-split [data-type=timeline] .aside .aside__line {
+    filter:invert(100%);
+    mix-blend-mode:overlay;
+}
+
+/* Make colours fit minimal theme */
+.mod-right-split [data-type=timeline] .event_item {
+    /* background-color:var(--background-modifier-hover) !important; */
+    /* background: linear-gradient(0deg, var(--background-primary), transparent); */
+    /* border-bottom-color: var(--tx3) !important; */
+}
+    .theme-light .mod-right-split [data-type=timeline] .event_item {
+        filter:brightness(2) saturate(0.4);
+    }
+.mod-right-split [data-type=timeline] .event_item:hover {
+    box-shadow:none !important;
+    background-color: var(--tx2) !important;
+}
+
+.theme-light .mod-right-split [data-type=timeline] .event_item:hover {
+    background-color: var(--color-red) !important;
+}
+.theme-light .mod-right-split [data-type=timeline] .event_item {
+    border-bottom-color: var(--tx2) !important;
+
+}
+
+.mod-right-split [data-type=timeline] .event_item .ei_Title {
+    color: var(--tx1) !important;
+    opacity:0.8;
+    text-shadow: 1px 1px 1px var(--progress-outline)
+}
+
+.theme-light .mod-right-split [data-type=timeline] .event_item .ei_Title,
+.theme-light .mod-right-split [data-type=timeline] .event_item .ei_Copy {
+    color:var(--tx3) !important
+}
+
+.theme-dark .mod-right-split [data-type=timeline] .event_item .ei_Title,
+.theme-dark .mod-right-split [data-type=timeline] .event_item .ei_Copy{
+    color: var(--tx1) !important
+}
+
+/* Cleverer colours (limited to theme, but better than nothing) */
+.mod-right-split [data-type=timeline] .event_item:nth-of-type(2n-1) {
+    /* background-color:var(--color-green) !important; */
+    
+}
+.mod-right-split [data-type=timeline] .event_item_color1 {
+    /* background-color:red !important; */
+}
+
+/* Now line overlay */
+
+.mod-right-split [data-type=timeline] #now-line {
+    /* background-color:var(--interactive-accent) !important; */
+    /* height:1px !important; */
+}
+.mod-right-split [data-type=timeline] #now-line .timeline-time {
+    left: 80% !important;
+    position: absolute !important;
+    font-size:12px;
+    padding-bottom:0 !important;
+}
+
+
+
+/* Planner box timeline line colors */
+.mod-right-split [data-type=timeline] #day-planner-timeline-container .aside__line,
+.mod-right-split [data-type=timeline] #day-planner-timeline-container .ei_Dot {
+    background-color: var(--tx3);
+}
+
+/* Hide autoscroll label */
+.mod-right-split [data-type=timeline] label[for=auto-scroll] {
+    display:none !important;
+}
+
+/* Restyle autoscroll checkbox and place over the planner top right */
+.mod-right-split [data-type=timeline] #scroll-controls {
+    position: fixed !important;
+    top:0 !important;
+    margin-top:-10px !important;
+    background:transparent !important
+}
+.mod-right-split [data-type=timeline] #auto-scroll {
+    position:absolute !important;
+    right:-4px;
+    top: 10px;
+    transform:scale(0.8);
+    transform-origin: 0 0;
+    opacity:0.5;
+    background-color: var(--tx2) !important;
+}
+.mod-right-split [data-type=timeline] #auto-scroll:hover {
+    opacity:1;
+}
+.mod-right-split [data-type=timeline] #auto-scroll::before {
+    content: 'time time' !important;
+}
+.mod-right-split [data-type=timeline] #auto-scroll:not(:checked)::before {
+    text-indent:-33px !important
+}
+
+.mod-right-split [data-type=timeline] .empty-timeline {
+    color: var(--tx3) !important;
+}
+
+#day-planner-timeline-container::after {
+    content:'';
+    display:block;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+    width:100%;
+    height:8px;
+    position: fixed;
+    bottom:0;
+    pointer-events:none;
+}
+
+/* Hide scrollbar */
+
+.view-content:has(#day-planner-timeline-container) {
+    outline: 2px solid red !important;
+}
+
+.view-content:has(#day-planner-timeline-container)::-webkit-scrollbar {
+    scrollbar-width: 0 !important;
+    width:0
+}
+
+
+/* status bar fixes */
+
+.status-bar-item.plugin-obsidian-day-planner .progress-pie {
+    background-image:linear-gradient(to right,transparent 50%, var(--tx1) 0)
+}
+.status-bar-item.plugin-obsidian-day-planner .progress-pie::before {
+    background-color:var(--tx1);
+}
+
+.status-bar-item.plugin-obsidian-day-planner .day-planner-status-bar-text {
+    transform: translate(0, 3px)
+}
+
+.status-bar-item.plugin-obsidian-day-planner .day-planner-progress-bar {
+    background:var(--background-modifier-border);
+    transform:translate(0, -1px);
+}

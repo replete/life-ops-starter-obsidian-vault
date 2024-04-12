@@ -1,0 +1,41 @@
+/*
+    Make.MD Banners 
+    
+    The only thing I use Make.MD for now is the banner functionality.
+    This base snippet hides inline-contexts altogether - we only want it for the banners.
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+:root {
+    --replete-banner-height: 180px; /* Set banner height here */
+}
+.mk-inline-context {
+    
+    .mk-path-context-component {
+        /* Hide inline context entirely */
+        display:none;
+        
+        &:has(.mk-space-banner) {
+            /* ...Except if there's a banner displaying... */
+            display:inherit;
+
+            /* ...and we hide it this way  */
+            .mk-props-contexts {
+                display:none;
+            }
+        }
+    }
+
+    .mk-space-banner {
+        height: var(--replete-banner-height);
+        :is(img) {
+            height: var(--replete-banner-height);
+            /* Disable magnify cursor */
+            cursor:default !important
+        }
+    }
+}
+
+/* Hide banner in hover popover */
+.hover-popover .mk-space-banner {
+    display:none;
+}

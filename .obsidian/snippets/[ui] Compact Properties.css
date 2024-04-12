@@ -1,0 +1,95 @@
+
+/*
+    Compact Properties
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Compact style */
+.cm-editor .metadata-container {
+    padding-top:0;
+    padding-bottom:6px;
+}
+
+.cm-editor .metadata-properties-heading {
+    display:none;
+}
+
+/* Autohide on hover for desktop */
+body:not(.is-mobile) {
+    .cm-editor .metadata-container {
+        height:.5em;
+        margin-bottom:0;
+
+        .metadata-content {
+            display:none;
+        }
+
+        &::before {
+            content:'⋯';
+            display:block;
+            position:absolute;
+            height:100%;
+            width:100%;
+            line-height:1em;
+            text-indent:3px;
+            top:-4px;
+            pointer-events:none;
+        }
+        
+        &:is(:hover,:focus-within) {
+            height:auto;
+            background: inherit;
+
+            &::before {
+                display:none;
+            }
+
+            .metadata-content {
+                display:inherit;
+            }   
+        }
+
+    }
+}
+
+/* Hide properties on mobile */
+body:is(.is-mobile) {
+    --metadata-display-editing: none;
+}
+
+/* Properties panel fixes */
+.workspace-leaf-content[data-type=all-properties] {
+
+    .nav-header {
+        padding-top:6px;
+        padding-bottom:0;
+
+        .nav-buttons-container {
+            margin-right:0 !important;
+            padding-left:2px
+        }
+
+        /* correct icon alignment */
+        .clickable-icon svg {
+            transform: translate(-2px,0);
+        }
+
+        .search-input-container {
+            outline:2px solid red;
+
+        }
+    }
+
+    .tree-item {
+        /* fix properties panel item alignment */
+        padding-left: 15px;
+        /* more compact */
+        margin-top:-5px;
+    }
+}
+
+/* Hide banner in hover popover */
+.hover-popover .metadata-container {
+    display:none !important;
+    outline: 2px solid red;
+}

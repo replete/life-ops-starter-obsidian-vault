@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasCalendarDay",
+      "FasScroll",
+      "FasBuildingColumns",
+      "FasBook",
+      "FasNoteSticky"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "Notes": "FasNoteSticky",
+  "Reference": "FasBook",
+  "Meditations": "FasBuildingColumns",
+  "Journal": "FasScroll",
+  "Daily": "FasCalendarDay"
+}

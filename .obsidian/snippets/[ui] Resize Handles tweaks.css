@@ -1,0 +1,12 @@
+/*
+    Resize handles tweaks
+    The resize handles when you resize sidebars use the accent colour which makes no sense to me
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+.workspace-leaf-resize-handle {
+    transition: all .2s ease-in;
+}
+.workspace-leaf-resize-handle:hover {
+    border-color:var(--text-muted);
+    background-color:var(--text-muted);
+}
