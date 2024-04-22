@@ -1,7 +1,6 @@
 # Replete's life ops starter vault
 
 This is your new *life ops starter vault*.
-phil@replete.nu
 
 ## Installation
 
